@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2024/02/29 17:35:54</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/user/home/vo21765/advanced-hpc-lbm/advi_vec_1024/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk</arg>
+  <arg>2555</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk</arg>
+  <arg>0x400000</arg>
+  <arg>0x61147f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x2b5711ed6000</arg>
+  <arg>0x2b57120f914f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x7ffeeebe3000</arg>
+  <arg>0x7ffeeebe3e6c</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <arg>0x2b572799d000</arg>
+  <arg>0x2b5727c9e137</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/mnt/storage/software/languages/gcc-10.4.0/lib64/libgcc_s.so.1</arg>
+  <arg>0x2b5727cbd000</arg>
+  <arg>0x2b5727ed4447</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <arg>0x2b5727edd000</arg>
+  <arg>0x2b57282aa1ff</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <arg>0x2b57282ab000</arg>
+  <arg>0x2b57284ae12f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:36:09 2024</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:41:14 2024</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:41:14 2024</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:41:14 2024</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:41:14 2024</timestamp>
+</msg>
+<msg id="19" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/mnt/storage/software/languages/gcc-10.4.0/lib64/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:41:14 2024</timestamp>
+</msg>
+<msg id="20" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:41:14 2024</timestamp>
+</msg>
+<msg id="21" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:41:14 2024</timestamp>
+</msg>
+<msg id="22" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk</arg>
+  <arg>2555</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Feb 29 17:41:14 2024</timestamp>
+</msg>
+<msg id="23" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="24" tool="runtool">
+  <type>marker-file</type>
+  <arg>/user/home/vo21765/advanced-hpc-lbm/advi_vec_1024/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="25" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="26" tool="runtool">
+  <type>log-end</type>
+  <arg>2024/02/29 17:41:18</arg>
+</msg>
+
+</log>
+

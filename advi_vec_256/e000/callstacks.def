@@ -1,0 +1,701 @@
+# callstacks file version: 7
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi
+         1	        -1	      3632	    0	      0	                                  _start	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3632	48	0	1	0	0	0	0	0	0	0
+         2	        -1	      3672	    0	      0	                                  _start	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3632	48	0	1	0	0	0	0	0	0	0
+         3	       372	    140628	    1	      1	     [Loop@0x22499 in __libc_start_main]	/lib64/libc.so.6	140441	391	0	8	0	0	0	0	0	0	0
+         4	       386	     11112	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+         5	       386	     10893	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+         6	       386	     10235	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+         7	         6	     34310	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+         8	       386	     11019	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+         9	       386	     10812	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        10	       386	     11374	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        11	         6	     34185	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        12	         6	     34201	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        13	       386	     10703	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        14	       386	     11205	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        15	       386	     10817	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        16	       386	     11361	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        17	       386	     11075	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        18	       386	     11181	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        19	       386	     11341	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        20	       386	     11151	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        21	       386	     10382	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        22	       385	     11638	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        23	       385	      7253	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        24	       386	     10763	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        25	       386	     11327	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        26	       385	      9862	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        27	       386	     10797	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        28	       386	     10802	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        29	       386	     11276	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        30	       386	     10926	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        31	       386	     11439	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        32	       386	     11049	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        33	       386	     10462	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        34	       385	      7092	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        35	       386	     11245	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        36	       386	     11331	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        37	       386	     10712	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        38	         6	     34197	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        39	       386	     10388	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        40	       386	     10787	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        41	       386	     11015	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        42	       386	     11103	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        43	       386	     10913	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        44	       386	     10376	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        45	       386	     10439	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        46	       386	     10792	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        47	       386	     11524	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        48	       386	     11186	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        49	         6	     34315	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        50	       386	     10639	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        51	       386	     10400	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        52	         6	     34179	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        53	       386	     10773	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        54	       386	     11085	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        55	         6	     34242	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        56	         6	     34319	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        57	       432	      6739	    1	      0	                 [Loop@0x4019db in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6619	155	6774	13	0	0	0	0	0	0	0
+        58	       385	     14598	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        59	       435	     12139	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        60	       435	     12499	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        61	       386	     10750	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        62	       386	     10295	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        63	       386	     10274	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        64	       386	     10310	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        65	       385	     14534	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        66	       386	     11239	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        67	       386	     10778	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        68	       385	      7323	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        69	         6	     34264	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        70	       385	      9829	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        71	       385	      9910	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        72	       435	     12436	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        73	       386	     11405	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        74	       386	     10362	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        75	       386	     11301	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        76	       386	     11234	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        77	       386	     10453	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        78	       386	     10844	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        79	       386	     10367	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        80	         6	     34291	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        81	       386	     11165	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        82	       435	     12376	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        83	       386	     11317	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        84	       386	     11312	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        85	       386	     10265	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        86	       386	     11370	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        87	       435	     12390	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        88	       435	     12546	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        89	       435	     12541	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        90	       386	     11190	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        91	       435	     12221	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        92	       386	     10689	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        93	       435	     12606	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+        94	         6	     34215	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+        95	       385	     11590	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+        96	       386	     10754	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        97	       386	     11210	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        98	       386	     11356	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+        99	       386	     10288	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       100	         6	     34246	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       101	         6	     34260	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       102	         6	     34295	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       103	         6	     34128	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       104	       386	     10731	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       105	       386	     10416	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       106	       435	     12536	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       107	       386	     10621	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       108	         6	     34148	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       109	       386	     11478	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       110	       386	     10958	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       111	       386	     11494	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       112	       386	     11413	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       113	       435	     12720	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       114	       386	     10596	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       115	       386	     10425	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       116	       386	     11322	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       117	       435	     12504	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       118	       386	     10457	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       119	         6	     34161	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       120	       386	     11292	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       121	       386	     11448	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       122	       386	     10256	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       123	       435	     12696	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       124	         6	     34152	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       125	         6	     34225	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       126	       435	     12107	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       127	       435	     12596	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       128	       386	     11482	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       129	       435	     12381	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       130	       435	     12853	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       131	         6	     34234	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       132	       385	      7133	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       133	       386	     11281	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       134	       386	     10740	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       135	       386	     10318	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       136	       386	     10606	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       137	       435	     12126	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       138	       435	     12462	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       139	       385	      9963	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       140	       385	     11598	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       141	       386	     11175	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       142	       386	     10615	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       143	         6	     34175	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       144	       386	     11417	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       145	       385	     14436	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       146	         6	     34299	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       147	         6	     34189	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       148	       386	     10334	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       149	       386	     10995	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       150	       386	     11457	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       151	       386	     11094	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       152	       386	     11382	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       153	       386	     10630	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       154	       386	     10582	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       155	       386	     10371	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       156	       386	     10342	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       157	       386	     10302	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       158	       435	     12368	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       159	       386	     11391	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       160	       385	      7049	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       161	         6	     34322	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       162	         6	     34193	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       163	       435	     12672	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       164	       386	     10354	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       165	       435	     12181	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       166	       385	      9881	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       167	       386	     11069	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       168	         6	     34251	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       169	       386	     11511	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       170	       386	     11250	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       171	       386	     11409	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       172	       385	     14497	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       173	       386	     11256	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       174	       435	     12805	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       175	       386	     11025	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       176	       386	     10657	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       177	       386	     10681	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       178	       386	     10446	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       179	       386	     11502	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       180	       386	     11133	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       181	       386	     10671	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       182	       386	     11039	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       183	       385	     14408	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       184	       435	     12147	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       185	       385	     10203	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       186	       385	     14554	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       187	       386	     10722	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       188	       386	     10876	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       189	         6	     34136	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       190	       435	     12155	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       191	       432	      6623	    1	      0	                 [Loop@0x4019db in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6619	155	6774	13	0	0	0	0	0	0	0
+       192	       386	     11142	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       193	       435	     12556	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       194	       386	     10212	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       195	       386	     10230	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       196	       386	     11199	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       197	       435	     12195	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       198	       386	     11541	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       199	       386	     11528	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       200	       435	     12514	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       201	         6	     34133	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       202	       385	     14468	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       203	         6	     34132	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       204	         6	     34169	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       205	       386	     10236	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       206	       386	     11147	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       207	         6	     34276	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       208	       435	     12418	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       209	       435	     12649	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       210	         6	     34229	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       211	       435	     12928	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       212	       385	      9935	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       213	       386	     10965	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       214	       385	     12064	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       215	       435	     12484	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       216	       386	     10849	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       217	       386	     11030	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       218	       385	      7089	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       219	       386	     11426	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       220	       435	     12176	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       221	       386	     11122	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       222	       386	     10871	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       223	         6	     34268	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       224	       385	     11718	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       225	       386	     11170	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       226	       386	     11225	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       227	         6	     34255	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       228	       386	     11422	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       229	       386	     11059	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       230	       386	     10350	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       231	         6	     34304	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       232	       386	     10516	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       233	       385	      7423	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       234	       386	     11470	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       235	       386	     10610	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       236	       386	     11138	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       237	       386	     11160	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       238	       385	      7369	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       239	       386	     10244	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       240	       385	     14526	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       241	       435	     12208	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       242	       435	     12104	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       243	       386	     10433	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       244	       385	      7139	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       245	       385	      9977	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       246	       386	     10221	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       247	       385	     10046	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       248	       385	      9995	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       249	         6	     34206	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       250	       386	     11265	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       251	       386	     10826	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       252	         6	     34157	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       253	       386	     11490	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       254	       386	     11434	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       255	         6	     34144	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       256	       385	     10145	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       257	       386	     11515	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       258	       435	     12899	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       259	       385	     14476	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       260	       435	     12771	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       261	       386	     10602	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       262	       435	     12322	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       263	       386	     10487	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       264	       435	     12509	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       265	       386	     10783	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       266	       385	      7317	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       267	       385	     14481	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       268	       385	      9809	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       269	       386	     11365	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       270	       435	     12877	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       271	       385	     11654	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       272	       385	      7247	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       273	       386	     11000	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       274	       432	      6752	    1	      0	                 [Loop@0x4019db in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6619	155	6774	13	0	0	0	0	0	0	0
+       275	       385	      7114	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       276	       386	     10735	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       277	       435	     12341	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       278	       385	     10017	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       279	       432	      6643	    1	      0	                 [Loop@0x4019db in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6619	155	6774	13	0	0	0	0	0	0	0
+       280	       386	     10885	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       281	       386	     10326	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       282	       385	     12968	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       283	       386	     11215	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       284	       386	     11549	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       285	       435	     12333	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       286	         6	     34140	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       287	       385	     11985	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       288	       386	     10358	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       289	       385	      9918	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       290	       385	     11630	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       291	       386	     11466	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       292	       385	     10137	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       293	       385	     11723	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       294	       386	     10858	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       295	       386	     10502	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       296	       386	     11399	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       297	       386	     11336	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       298	       385	      9759	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       299	       385	      9986	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       300	       385	      9771	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       301	       435	     12133	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       302	       385	      9801	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       303	       435	     12743	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       304	       432	      6762	    1	      0	                 [Loop@0x4019db in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6619	155	6774	13	0	0	0	0	0	0	0
+       305	       435	     12356	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       306	       385	      9804	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       307	       385	     11673	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       308	       386	     10556	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       309	       385	      7120	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       310	       385	     11955	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       311	       386	     10283	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       312	       386	     10532	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       313	       385	      9943	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       314	       385	      7347	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       315	       435	     12295	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       316	       435	     12302	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       317	       386	     10981	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       318	       435	     12351	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       319	       385	     11863	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       320	       385	     14510	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       321	       385	      9877	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       322	       435	     12570	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       323	       385	      7282	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       324	       386	     11532	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       325	       432	      6756	    1	      0	                 [Loop@0x4019db in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6619	155	6774	13	0	0	0	0	0	0	0
+       326	       385	     10079	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       327	       435	     12829	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       328	       435	     12171	    1	      0	                 [Loop@0x402f48 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	12104	847	12951	14	0	0	0	0	0	0	0
+       329	       385	      9821	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       330	       385	      7213	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       331	       386	     10550	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       332	       385	     12951	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       333	       385	     11911	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       334	       385	      8103	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       335	       386	     10408	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       336	       385	     11919	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       337	       385	      9951	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       338	         6	     34219	    0	      0	                         __svml_irem8_l9	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	34128	208	0	10	0	0	0	0	0	0	0
+       339	       385	     11805	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       340	       385	      7417	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       341	       386	     10834	    1	      0	                 [Loop@0x4027e4 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	10212	1351	11563	2	0	0	0	0	0	0	0
+       342	       385	      7403	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       343	       385	     14416	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       344	       385	     11997	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       345	       385	      7285	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       346	       385	      7159	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       347	       385	      9854	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       348	       385	      7036	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       349	       695	     13888	    1	      0	                 [Loop@0x4034f9 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	13561	340	13901	15	0	0	0	0	0	0	0
+       350	       349	    341062	    0	      1	                             _IO_fprintf	/lib64/libc.so.6	340928	143	0	11	0	0	0	0	0	0	0
+       351	       350	    316630	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	12	0	0	0	0	0	0	0
+       352	       351	    323839	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       353	       350	    306098	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	12	0	0	0	0	0	0	0
+       354	       353	    502276	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	19	0	0	0	0	0	0	0
+       355	       354	    588697	    0	      1	                          __GI___mempcpy	/lib64/libc.so.6	588656	1106	0	20	0	0	0	0	0	0	0
+       356	       374	    323930	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       357	       356	    319890	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       358	       350	    305963	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	12	0	0	0	0	0	0	0
+       359	       374	    323934	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       360	       356	    319885	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       361	       377	    327673	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       362	       377	    327644	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       363	       356	    319908	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       364	       697	     14062	    1	      0	                 [Loop@0x4036cf in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	14031	43	14074	17	0	0	0	0	0	0	0
+       365	       364	    341062	    0	      1	                             _IO_fprintf	/lib64/libc.so.6	340928	143	0	11	0	0	0	0	0	0	0
+       366	       365	    316630	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	12	0	0	0	0	0	0	0
+       367	       366	    327609	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       368	       365	    316378	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	12	0	0	0	0	0	0	0
+       369	       380	    323719	    1	      1	    [Loop@0x4f080 in __GI___printf_fp_l]	/lib64/libc.so.6	323712	22	0	24	0	0	0	0	0	0	0
+       370	       369	    319904	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       371	       370	    290545	    0	      1	                             __mpn_mul_1	/lib64/libc.so.6	290512	281	0	25	0	0	0	0	0	0	0
+       372	         2	    140441	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	9	0	0	0	0	0	0	0
+       373	         2	    140628	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	9	0	0	0	0	0	0	0
+       374	       351	    323872	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       375	       351	    323930	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       376	       351	    323934	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       377	       351	    327640	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       378	       351	    327673	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       379	       351	    327644	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       380	       366	    323712	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       381	       366	    323719	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	18	0	0	0	0	0	0	0
+       382	         3	      3945	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       383	       382	      6496	    1	      0	                 [Loop@0x400f69 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3945	11058	13986	7	0	0	0	0	0	0	0
+       384	       383	      7016	    1	      0	                 [Loop@0x401960 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6496	7062	13232	6	0	0	0	0	0	0	0
+       385	       384	      7028	    1	      0	                 [Loop@0x401b68 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7016	6453	13143	5	0	0	0	0	0	0	0
+       386	       385	     10212	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       387	         3	     11112	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       388	         3	     10893	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       389	         3	     10235	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       390	         3	     11019	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       391	         3	     10812	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       392	         3	     11374	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       393	         3	     10703	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       394	         3	     11205	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       395	         3	     10817	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       396	         3	     11361	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       397	         3	     11075	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       398	         3	     11181	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       399	         3	     11341	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       400	         3	     11151	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       401	         3	     10382	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       402	         3	     11638	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       403	         3	      7253	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       404	         3	     10763	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       405	         3	     11327	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       406	         3	      9862	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       407	         3	     10797	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       408	         3	     10802	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       409	         3	     11276	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       410	         3	     10926	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       411	         3	     11439	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       412	         3	     11049	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       413	         3	     10462	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       414	         3	      7092	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       415	         3	     11245	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       416	         3	     11331	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       417	         3	     10712	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       418	         3	     10388	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       419	         3	     10787	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       420	         3	     11015	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       421	         3	     11103	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       422	         3	     10913	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       423	         3	     10376	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       424	         3	     10439	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       425	         3	     10792	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       426	         3	     11524	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       427	         3	     11186	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       428	         3	     10639	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       429	         3	     10400	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       430	         3	     10773	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       431	         3	     11085	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       432	       383	      6619	    1	      0	                 [Loop@0x401960 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6496	7062	13232	6	0	0	0	0	0	0	0
+       433	         3	      6739	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       434	         3	     14598	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       435	       385	     12104	    1	      0	                 [Loop@0x401b74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7028	6441	13143,7016	4	0	0	0	0	0	0	0
+       436	         3	     12139	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       437	         3	     12499	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       438	         3	     10750	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       439	         3	     10295	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       440	         3	     10274	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       441	         3	     10310	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       442	         3	     14534	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       443	         3	     11239	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       444	         3	     10778	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       445	         3	      7323	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       446	         3	      9829	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       447	         3	      9910	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       448	         3	     12436	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       449	         3	     11405	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       450	         3	     10362	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       451	         3	     11301	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       452	         3	     11234	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       453	         3	     10453	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       454	         3	     10844	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       455	         3	     10367	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       456	         3	     11165	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       457	         3	     12376	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       458	         3	     11317	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       459	         3	     11312	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       460	         3	     10265	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       461	         3	     11370	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       462	         3	     12390	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       463	         3	     12546	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       464	         3	     12541	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       465	         3	     11190	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       466	         3	     12221	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       467	         3	     10689	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       468	         3	     12606	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       469	         3	     11590	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       470	         3	     10754	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       471	         3	     11210	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       472	         3	     11356	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       473	         3	     10288	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       474	         3	     10731	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       475	         3	     10416	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       476	         3	     12536	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       477	         3	     10621	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       478	         3	     11478	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       479	         3	     10958	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       480	         3	     11494	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       481	         3	     11413	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       482	         3	     12720	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       483	         3	     10596	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       484	         3	     10425	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       485	         3	     11322	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       486	         3	     12504	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       487	         3	     10457	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       488	         3	     11292	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       489	         3	     11448	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       490	         3	     10256	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       491	         3	     12696	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       492	         3	     12107	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       493	         3	     12596	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       494	         3	     11482	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       495	         3	     12381	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       496	         3	     12853	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       497	         3	      7133	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       498	         3	     11281	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       499	         3	     10740	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       500	         3	     10318	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       501	         3	     10606	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       502	         3	     12126	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       503	         3	     12462	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       504	         3	      9963	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       505	         3	     11598	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       506	         3	     11175	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       507	         3	     10615	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       508	         3	     11417	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       509	         3	     14436	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       510	         3	     10334	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       511	         3	     10995	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       512	         3	     11457	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       513	         3	     11094	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       514	         3	     11382	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       515	         3	     10630	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       516	         3	     10582	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       517	         3	     10371	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       518	         3	     10342	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       519	         3	     10302	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       520	         3	     12368	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       521	         3	     11391	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       522	         3	      7049	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       523	         3	     12672	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       524	         3	     10354	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       525	         3	     12181	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       526	         3	      9881	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       527	         3	     11069	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       528	         3	     11511	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       529	         3	     11250	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       530	         3	     11409	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       531	         3	     14497	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       532	         3	     11256	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       533	         3	     12805	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       534	         3	     11025	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       535	         3	     10657	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       536	         3	     10681	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       537	         3	     10446	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       538	         3	     11502	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       539	         3	     11133	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       540	         3	     10671	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       541	         3	     11039	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       542	         3	     14408	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       543	         3	     12147	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       544	         3	     10203	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       545	         3	     14554	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       546	         3	     10722	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       547	         3	     10876	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       548	         3	     12155	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       549	         3	      6623	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       550	         3	     11142	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       551	         3	     12556	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       552	         3	     10212	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       553	         3	     10230	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       554	         3	     11199	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       555	         3	     12195	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       556	         3	     11541	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       557	         3	     11528	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       558	         3	     12514	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       559	         3	     14468	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       560	         3	     10236	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       561	         3	     11147	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       562	         3	     12418	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       563	         3	     12649	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       564	         3	     12928	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       565	         3	      9935	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       566	         3	     10965	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       567	         3	     12064	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       568	         3	     12484	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       569	         3	     10849	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       570	         3	     11030	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       571	         3	      7089	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       572	         3	     11426	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       573	         3	     12176	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       574	         3	     11122	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       575	         3	     10871	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       576	         3	     11718	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       577	         3	     11170	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       578	         3	     11225	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       579	         3	     11422	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       580	         3	     11059	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       581	         3	     10350	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       582	         3	     10516	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       583	         3	      7423	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       584	         3	     11470	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       585	         3	     10610	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       586	         3	     11138	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       587	         3	     11160	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       588	         3	      7369	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       589	         3	     10244	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       590	         3	     14526	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       591	         3	     12208	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       592	         3	     12104	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       593	         3	     10433	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       594	         3	      7139	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       595	         3	      9977	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       596	         3	     10221	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       597	         3	     10046	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       598	         3	      9995	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       599	         3	     11265	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       600	         3	     10826	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       601	         3	     11490	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       602	         3	     11434	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       603	         3	     10145	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       604	         3	     11515	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       605	         3	     12899	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       606	         3	     14476	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       607	         3	     12771	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       608	         3	     10602	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       609	         3	     12322	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       610	         3	     10487	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       611	         3	     12509	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       612	         3	     10783	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       613	         3	      7317	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       614	         3	     14481	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       615	         3	      9809	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       616	         3	     11365	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       617	         3	     12877	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       618	         3	     11654	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       619	         3	      7247	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       620	         3	     11000	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       621	         3	      6752	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       622	         3	      7114	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       623	         3	     10735	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       624	         3	     12341	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       625	         3	     10017	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       626	         3	      6643	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       627	         3	     10885	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       628	         3	     10326	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       629	         3	     12968	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       630	         3	     11215	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       631	         3	     11549	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       632	         3	     12333	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       633	         3	     11985	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       634	         3	     10358	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       635	         3	      9918	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       636	         3	     11630	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       637	         3	     11466	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       638	         3	     10137	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       639	         3	     11723	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       640	         3	     10858	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       641	         3	     10502	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       642	         3	     11399	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       643	         3	     11336	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       644	         3	      9759	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       645	         3	      9986	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       646	         3	      9771	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       647	         3	     12133	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       648	         3	      9801	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       649	         3	     12743	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       650	         3	      6762	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       651	         3	     12356	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       652	         3	      9804	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       653	         3	     11673	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       654	         3	     10556	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       655	         3	      7120	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       656	         3	     11955	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       657	         3	     10283	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       658	         3	     10532	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       659	         3	      9943	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       660	         3	      7347	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       661	         3	     12295	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       662	         3	     12302	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       663	         3	     10981	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       664	         3	     12351	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       665	         3	     11863	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       666	         3	     14510	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       667	         3	      9877	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       668	         3	     12570	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       669	         3	      7282	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       670	         3	     11532	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       671	         3	      6756	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       672	         3	     10079	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       673	         3	     12829	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       674	         3	     12171	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       675	         3	      9821	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       676	         3	      7213	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       677	         3	     10550	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       678	         3	     12951	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       679	         3	     11911	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       680	         3	      8103	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       681	         3	     10408	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       682	         3	     11919	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       683	         3	      9951	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       684	         3	     11805	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       685	         3	      7417	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       686	         3	     10834	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       687	         3	      7403	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       688	         3	     14416	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       689	         3	     11997	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       690	         3	      7285	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       691	         3	      7159	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       692	         3	      9854	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       693	         3	      7036	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       694	       382	     13523	    1	      0	                 [Loop@0x400f69 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3945	11058	13986	7	0	0	0	0	0	0	0
+       695	       694	     13561	    1	      0	                 [Loop@0x4034d3 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	13523	414	13937	16	0	0	0	0	0	0	0
+       696	         3	     13888	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       697	         3	     14031	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       698	         3	     14062	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3856	11328	0	3	0	0	0	0	0	0	0
+       699	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	1	0	27	0	0	0	0	0	0	0

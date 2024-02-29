@@ -1,0 +1,548 @@
+# callstacks file version: 7
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi
+         1	        -1	      3648	    0	      0	                                  _start	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3648	48	0	1	0	0	0	0	0	0	0
+         2	        -1	      3688	    0	      0	                                  _start	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3648	48	0	1	0	0	0	0	0	0	0
+         3	       320	    140628	    1	      1	     [Loop@0x22499 in __libc_start_main]	/lib64/libc.so.6	140441	391	0	10	0	0	0	0	0	0	0
+         4	       369	      4871	    1	      0	                 [Loop@0x4012e0 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	4832	105	4937	2	0	0	0	0	0	0	0
+         5	       374	      6800	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+         6	       374	      7144	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+         7	       374	      6470	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+         8	       374	      6783	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+         9	       374	      6228	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        10	       374	      6971	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        11	       374	      6452	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        12	       374	      6447	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        13	       374	      6489	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        14	       374	      6544	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        15	       374	      7097	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        16	       374	      6405	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        17	       374	      7150	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        18	       374	      6904	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        19	       374	      6442	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        20	       374	      6960	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        21	       374	      6979	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        22	       374	      7089	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        23	       374	      6424	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        24	       374	      6357	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        25	       374	      6692	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        26	       374	      6221	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        27	       374	      6713	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        28	       374	      7125	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        29	       374	      6190	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        30	       374	      6149	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        31	       374	      6312	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        32	       374	      7039	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        33	       374	      6603	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        34	       374	      6339	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        35	       374	      6233	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        36	       374	      6214	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        37	       374	      6669	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        38	       374	      7016	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        39	       374	      6625	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        40	       374	      6376	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        41	       374	      6575	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        42	       374	      6824	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        43	       374	      6428	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        44	       374	      6539	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        45	       374	      6390	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        46	       374	      6955	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        47	       374	      6640	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        48	       374	      6921	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        49	       374	      6525	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        50	       374	      6949	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        51	       374	      6508	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        52	       374	      6763	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        53	       374	      6883	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        54	       374	      7034	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        55	       374	      7081	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        56	       374	      7058	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        57	       374	      6737	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        58	       374	      6457	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        59	       374	      6166	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        60	       374	      6570	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        61	       374	      6844	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        62	       374	      6152	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        63	       374	      6991	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        64	       374	      6200	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        65	       374	      6945	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        66	       374	      6964	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        67	       374	      6479	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        68	       374	      6730	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        69	       374	      6791	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        70	       374	      6862	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        71	       374	      6938	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        72	       374	      6777	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        73	       374	      6873	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        74	       374	      6893	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        75	       374	      6831	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        76	       374	      6750	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        77	       374	      6701	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        78	       374	      6773	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        79	       374	      7118	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        80	       374	      6974	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        81	       374	      6933	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        82	       374	      6725	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        83	       374	      6316	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        84	       374	      6326	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        85	       374	      6815	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        86	       374	      6679	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        87	       374	      6410	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        88	       374	      6362	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        89	       374	      6839	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        90	       374	      6912	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        91	       374	      6854	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        92	       374	      6400	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        93	       374	      7104	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        94	       374	      6654	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        95	       374	      6552	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        96	       372	      7460	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+        97	       374	      7068	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        98	       374	      6296	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+        99	       374	      6156	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       100	       374	      7043	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       101	       374	      6395	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       102	       374	      6998	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       103	       372	      6063	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       104	       374	      6828	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       105	       475	      5867	    1	      0	                 [Loop@0x40168b in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5771	134	5905	14	0	0	0	0	0	0	0
+       106	       374	      6984	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       107	       372	      7481	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       108	       374	      6517	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       109	       374	      6256	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       110	       374	      6194	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       111	       482	      7545	    1	      0	                 [Loop@0x401d5d in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7517	33	7569,7550	15	0	0	0	0	0	0	0
+       112	       374	      6819	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       113	       374	      6299	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       114	       374	      6270	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       115	       372	      5997	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       116	       374	      6858	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       117	       374	      7025	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       118	       475	      5823	    1	      0	                 [Loop@0x40168b in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5771	134	5905	14	0	0	0	0	0	0	0
+       119	       374	      6180	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       120	       372	      6117	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       121	       374	      6160	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       122	       374	      6967	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       123	       374	      7162	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       124	       374	      6869	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       125	       374	      7132	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       126	       374	      6381	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       127	       374	      7021	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       128	       374	      6277	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       129	       374	      6348	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       130	       374	      6291	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       131	       374	      7147	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       132	       475	      5889	    1	      0	                 [Loop@0x40168b in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5771	134	5905	14	0	0	0	0	0	0	0
+       133	       374	      6207	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       134	       374	      6437	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       135	       374	      7007	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       136	       372	      6133	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       137	       374	      6184	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       138	       374	      6343	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       139	       374	      6907	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       140	       374	      7111	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       141	       372	      6079	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       142	       374	      6687	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       143	       374	      6916	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       144	       475	      5793	    1	      0	                 [Loop@0x40168b in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5771	134	5905	14	0	0	0	0	0	0	0
+       145	       374	      7030	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       146	       475	      5847	    1	      0	                 [Loop@0x40168b in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5771	134	5905	14	0	0	0	0	0	0	0
+       147	       374	      6415	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       148	       374	      6848	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       149	       374	      6173	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       150	       374	      6995	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       151	       372	      7489	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       152	       374	      6146	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       153	       374	      6807	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       154	       374	      6263	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       155	       374	      6284	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       156	       374	      6484	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       157	       374	      6566	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       158	       475	      5776	    1	      0	                 [Loop@0x40168b in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5771	134	5905	14	0	0	0	0	0	0	0
+       159	       374	      6758	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       160	       374	      6353	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       161	       372	      7564	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       162	       374	      6796	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       163	       374	      7153	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       164	       374	      6497	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       165	       374	      6242	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       166	       372	      7509	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       167	       374	      6329	    1	      0	                 [Loop@0x401802 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6146	1021	7452,6141	6	0	0	0	0	0	0	0
+       168	       541	      8340	    1	      0	                 [Loop@0x401f68 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	8040	323	8363	16	0	0	0	0	0	0	0
+       169	       168	    341062	    0	      1	                             _IO_fprintf	/lib64/libc.so.6	340928	143	0	12	0	0	0	0	0	0	0
+       170	       169	    311593	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       171	       169	    316630	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       172	       322	    327280	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       173	       324	    323930	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       174	       173	    319905	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       175	       324	    323872	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       176	       169	    297374	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       177	       173	    319908	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       178	       327	    329688	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       179	       178	    508106	    0	      1	                       _IO_file_overflow	/lib64/libc.so.6	507664	508	0	24	0	0	0	0	0	0	0
+       180	       179	    506637	    0	      1	                            _IO_do_write	/lib64/libc.so.6	506448	418	0	25	0	0	0	0	0	0	0
+       181	       329	    500466	    1	      1	        [Loop@0x7a2d0 in _IO_file_write]	/lib64/libc.so.6	500432	49	0	26	0	0	0	0	0	0	0
+       182	       181	    981920	    0	      1	                                 __write	/lib64/libc.so.6	981904	90	0	28	0	0	0	0	0	0	0
+       183	       169	    311817	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       184	       331	    130008	    1	      1	              [Loop@0x1fbd1 in read_int]	/lib64/libc.so.6	130001	58	0	29	0	0	0	0	0	0	0
+       185	       171	    327008	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       186	       185	    288904	    0	      1	                            __mpn_lshift	/lib64/libc.so.6	288816	259	0	31	0	0	0	0	0	0	0
+       187	       173	    319904	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       188	       187	    290519	    0	      1	                             __mpn_mul_1	/lib64/libc.so.6	290512	281	0	32	0	0	0	0	0	0	0
+       189	       173	    319900	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       190	       331	    130023	    1	      1	              [Loop@0x1fbd1 in read_int]	/lib64/libc.so.6	130001	58	0	29	0	0	0	0	0	0	0
+       191	       169	    306098	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       192	       191	    502427	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       193	       334	    325130	    1	      1	    [Loop@0x4f600 in __GI___printf_fp_l]	/lib64/libc.so.6	325120	86	0	34	0	0	0	0	0	0	0
+       194	       322	    327559	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       195	       194	    289850	    0	      1	                               __mpn_mul	/lib64/libc.so.6	289440	1060	0	35	0	0	0	0	0	0	0
+       196	       327	    327663	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       197	       171	    325029	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       198	       169	    306515	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       199	       169	    306232	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       200	       169	    297550	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       201	       327	    327673	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       202	       169	    297038	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       203	       171	    324507	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       204	       324	    323931	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       205	       169	    312245	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       206	       169	    316378	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       207	       173	    319645	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       208	       322	    327417	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       209	       208	    289185	    0	      1	                            __mpn_rshift	/lib64/libc.so.6	289088	259	0	36	0	0	0	0	0	0	0
+       210	       324	    323888	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       211	       187	    290540	    0	      1	                             __mpn_mul_1	/lib64/libc.so.6	290512	281	0	32	0	0	0	0	0	0	0
+       212	       173	    319885	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       213	       171	    324355	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       214	       169	    297527	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       215	       171	    321981	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       216	       194	    289449	    0	      1	                               __mpn_mul	/lib64/libc.so.6	289440	1060	0	35	0	0	0	0	0	0	0
+       217	       322	    327267	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       218	       169	    311599	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       219	       171	    324368	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       220	       322	    327169	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       221	       191	    502212	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       222	       187	    290555	    0	      1	                             __mpn_mul_1	/lib64/libc.so.6	290512	281	0	32	0	0	0	0	0	0	0
+       223	       173	    319664	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       224	       173	    319915	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       225	       324	    323926	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       226	       324	    323891	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       227	       169	    306884	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       228	       227	    502276	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       229	       228	    588686	    0	      1	                          __GI___mempcpy	/lib64/libc.so.6	588656	1106	0	37	0	0	0	0	0	0	0
+       230	       191	    502254	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       231	       171	    324866	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       232	       231	    577145	    0	      1	                             __GI_strlen	/lib64/libc.so.6	577120	221	0	38	0	0	0	0	0	0	0
+       233	       327	    327644	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       234	       171	    321945	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       235	       234	    293903	    0	      1	                    __mpn_extract_double	/lib64/libc.so.6	293840	156	0	39	0	0	0	0	0	0	0
+       236	       171	    325056	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       237	       169	    306225	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       238	       169	    312788	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       239	       169	    316376	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       240	       171	    325701	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       241	       327	    327648	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       242	       541	      8121	    1	      0	                 [Loop@0x401f68 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	8040	323	8363	16	0	0	0	0	0	0	0
+       243	       327	    327652	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       244	       171	    329610	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       245	       171	    325952	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       246	       169	    316474	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       247	       334	    325128	    1	      1	    [Loop@0x4f600 in __GI___printf_fp_l]	/lib64/libc.so.6	325120	86	0	34	0	0	0	0	0	0	0
+       248	       169	    296703	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       249	       171	    323584	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       250	       171	    324943	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       251	       171	    320090	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       252	       191	    502277	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       253	       324	    323878	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       254	       322	    327202	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       255	       169	    314567	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       256	       228	    588670	    0	      1	                          __GI___mempcpy	/lib64/libc.so.6	588656	1106	0	37	0	0	0	0	0	0	0
+       257	       169	    297543	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       258	       234	    293965	    0	      1	                    __mpn_extract_double	/lib64/libc.so.6	293840	156	0	39	0	0	0	0	0	0	0
+       259	       171	    324056	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       260	       259	    319637	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       261	       322	    327488	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       262	       187	    290516	    0	      1	                             __mpn_mul_1	/lib64/libc.so.6	290512	281	0	32	0	0	0	0	0	0	0
+       263	       173	    319649	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       264	       171	    322018	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       265	       353	    325256	    1	      1	    [Loop@0x4f688 in __GI___printf_fp_l]	/lib64/libc.so.6	325256	24	0	40	0	0	0	0	0	0	0
+       266	       171	    325832	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       267	       191	    502191	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       268	       234	    293846	    0	      1	                    __mpn_extract_double	/lib64/libc.so.6	293840	156	0	39	0	0	0	0	0	0	0
+       269	       171	    322161	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       270	       169	    296551	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       271	       327	    327680	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       272	       324	    323939	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       273	       324	    323946	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       274	       324	    323893	    1	      1	    [Loop@0x4f120 in __GI___printf_fp_l]	/lib64/libc.so.6	323872	125	0	21	0	0	0	0	0	0	0
+       275	       171	    327017	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       276	       322	    327587	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       277	       171	    321941	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       278	       194	    289473	    0	      1	                               __mpn_mul	/lib64/libc.so.6	289440	1060	0	35	0	0	0	0	0	0	0
+       279	       327	    327678	    1	      1	    [Loop@0x4ffd8 in __GI___printf_fp_l]	/lib64/libc.so.6	327640	80	0	23	0	0	0	0	0	0	0
+       280	       227	    502277	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       281	       169	    306015	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       282	       281	    615623	    0	      1	                               strchrnul	/lib64/libc.so.6	615600	111	0	41	0	0	0	0	0	0	0
+       283	       171	    323237	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       284	       361	    323719	    1	      1	    [Loop@0x4f080 in __GI___printf_fp_l]	/lib64/libc.so.6	323712	22	0	42	0	0	0	0	0	0	0
+       285	       284	    319637	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       286	       169	    311567	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       287	       171	    324964	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       288	       171	    322073	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       289	       191	    502276	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       290	       289	    588656	    0	      1	                          __GI___mempcpy	/lib64/libc.so.6	588656	1106	0	37	0	0	0	0	0	0	0
+       291	       284	    319905	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       292	       169	    306859	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       293	       169	    296710	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       294	       293	    502184	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       295	       322	    327452	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       296	       334	    325150	    1	      1	    [Loop@0x4f600 in __GI___printf_fp_l]	/lib64/libc.so.6	325120	86	0	34	0	0	0	0	0	0	0
+       297	       191	    502444	    0	      1	                         _IO_file_xsputn	/lib64/libc.so.6	502176	808	0	33	0	0	0	0	0	0	0
+       298	       171	    325059	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       299	       169	    311494	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       300	       259	    319645	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       301	       171	    328542	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       302	       171	    322265	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       303	       171	    324252	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       304	       228	    588779	    0	      1	                          __GI___mempcpy	/lib64/libc.so.6	588656	1106	0	37	0	0	0	0	0	0	0
+       305	       171	    327062	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       306	       173	    319637	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       307	       169	    311610	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       308	       169	    297554	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       309	       173	    319890	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       310	       183	    129998	    0	      1	                                read_int	/lib64/libc.so.6	129986	74	0	30	0	0	0	0	0	0	0
+       311	       194	    289519	    0	      1	                               __mpn_mul	/lib64/libc.so.6	289440	1060	0	35	0	0	0	0	0	0	0
+       312	       311	    290785	    0	      1	                             __mpn_mul_1	/lib64/libc.so.6	290512	281	0	32	0	0	0	0	0	0	0
+       313	       173	    319912	    0	      1	                        hack_digit.13666	/lib64/libc.so.6	319632	340	0	22	0	0	0	0	0	0	0
+       314	       544	      8536	    1	      0	                 [Loop@0x402139 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	8505	43	8548	18	0	0	0	0	0	0	0
+       315	       314	    341062	    0	      1	                             _IO_fprintf	/lib64/libc.so.6	340928	143	0	12	0	0	0	0	0	0	0
+       316	       315	    316630	    0	      1	                            _IO_vfprintf	/lib64/libc.so.6	296448	22447	0	13	0	0	0	0	0	0	0
+       317	       365	    327559	    1	      1	    [Loop@0x4fdb0 in __GI___printf_fp_l]	/lib64/libc.so.6	327088	710	0	19	0	0	0	0	0	0	0
+       318	       317	    289519	    0	      1	                               __mpn_mul	/lib64/libc.so.6	289440	1060	0	35	0	0	0	0	0	0	0
+       319	       318	    290788	    0	      1	                             __mpn_mul_1	/lib64/libc.so.6	290512	281	0	32	0	0	0	0	0	0	0
+       320	         2	    140441	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	11	0	0	0	0	0	0	0
+       321	         2	    140628	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	11	0	0	0	0	0	0	0
+       322	       171	    327088	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       323	       171	    327280	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       324	       171	    323872	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       325	       171	    323930	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       326	       171	    323872	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       327	       171	    327640	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       328	       171	    329688	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       329	       180	    500432	    0	      1	                          _IO_file_write	/lib64/libc.so.6	500400	149	0	27	0	0	0	0	0	0	0
+       330	       180	    500466	    0	      1	                          _IO_file_write	/lib64/libc.so.6	500400	149	0	27	0	0	0	0	0	0	0
+       331	       183	    130001	    0	      1	                                read_int	/lib64/libc.so.6	129986	74	0	30	0	0	0	0	0	0	0
+       332	       183	    130008	    0	      1	                                read_int	/lib64/libc.so.6	129986	74	0	30	0	0	0	0	0	0	0
+       333	       183	    130023	    0	      1	                                read_int	/lib64/libc.so.6	129986	74	0	30	0	0	0	0	0	0	0
+       334	       171	    325120	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       335	       171	    325130	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       336	       171	    327559	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       337	       171	    327663	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       338	       171	    327673	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       339	       171	    323931	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       340	       171	    327417	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       341	       171	    323888	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       342	       171	    327267	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       343	       171	    327169	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       344	       171	    323926	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       345	       171	    323891	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       346	       171	    327644	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       347	       171	    327648	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       348	       171	    327652	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       349	       171	    325128	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       350	       171	    323878	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       351	       171	    327202	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       352	       171	    327488	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       353	       171	    325256	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       354	       171	    325256	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       355	       171	    327680	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       356	       171	    323939	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       357	       171	    323946	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       358	       171	    323893	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       359	       171	    327587	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       360	       171	    327678	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       361	       171	    323712	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       362	       171	    323719	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       363	       171	    327452	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       364	       171	    325150	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       365	       316	    327088	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       366	       316	    327559	    0	      1	                      __GI___printf_fp_l	/lib64/libc.so.6	320080	9955	0	20	0	0	0	0	0	0	0
+       367	         3	      3956	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       368	       367	      4796	    1	      0	                 [Loop@0x400f74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3956	5061	8463	5	0	0	0	0	0	0	0
+       369	       368	      4832	    1	      0	                 [Loop@0x4012bc in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	4796	241	5023,5042	4	0	0	0	0	0	0	0
+       370	         3	      4871	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       371	       367	      5726	    1	      0	                 [Loop@0x400f74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3956	5061	8463	5	0	0	0	0	0	0	0
+       372	       371	      5993	    1	      0	                 [Loop@0x40165e in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5726	1727	7662	9	0	0	0	0	0	0	0
+       373	       372	      6141	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       374	       373	      6146	    1	      0	                 [Loop@0x4017fd in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	6141	1026	7452	7	0	0	0	0	0	0	0
+       375	         3	      6800	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       376	         3	      7144	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       377	         3	      6470	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       378	         3	      6783	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       379	         3	      6228	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       380	         3	      6971	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       381	         3	      6452	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       382	         3	      6447	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       383	         3	      6489	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       384	         3	      6544	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       385	         3	      7097	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       386	         3	      6405	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       387	         3	      7150	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       388	         3	      6904	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       389	         3	      6442	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       390	         3	      6960	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       391	         3	      6979	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       392	         3	      7089	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       393	         3	      6424	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       394	         3	      6357	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       395	         3	      6692	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       396	         3	      6221	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       397	         3	      6713	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       398	         3	      7125	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       399	         3	      6190	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       400	         3	      6149	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       401	         3	      6312	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       402	         3	      7039	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       403	         3	      6603	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       404	         3	      6339	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       405	         3	      6233	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       406	         3	      6214	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       407	         3	      6669	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       408	         3	      7016	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       409	         3	      6625	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       410	         3	      6376	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       411	         3	      6575	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       412	         3	      6824	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       413	         3	      6428	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       414	         3	      6539	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       415	         3	      6390	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       416	         3	      6955	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       417	         3	      6640	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       418	         3	      6921	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       419	         3	      6525	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       420	         3	      6949	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       421	         3	      6508	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       422	         3	      6763	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       423	         3	      6883	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       424	         3	      7034	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       425	         3	      7081	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       426	         3	      7058	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       427	         3	      6737	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       428	         3	      6457	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       429	         3	      6166	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       430	         3	      6570	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       431	         3	      6844	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       432	         3	      6152	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       433	         3	      6991	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       434	         3	      6200	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       435	         3	      6945	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       436	         3	      6964	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       437	         3	      6479	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       438	         3	      6730	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       439	         3	      6791	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       440	         3	      6862	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       441	         3	      6938	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       442	         3	      6777	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       443	         3	      6873	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       444	         3	      6893	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       445	         3	      6831	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       446	         3	      6750	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       447	         3	      6701	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       448	         3	      6773	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       449	         3	      7118	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       450	         3	      6974	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       451	         3	      6933	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       452	         3	      6725	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       453	         3	      6316	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       454	         3	      6326	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       455	         3	      6815	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       456	         3	      6679	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       457	         3	      6410	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       458	         3	      6362	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       459	         3	      6839	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       460	         3	      6912	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       461	         3	      6854	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       462	         3	      6400	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       463	         3	      7104	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       464	         3	      6654	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       465	         3	      6552	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       466	         3	      7460	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       467	         3	      7068	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       468	         3	      6296	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       469	         3	      6156	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       470	         3	      7043	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       471	         3	      6395	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       472	         3	      6998	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       473	         3	      6063	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       474	         3	      6828	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       475	       371	      5771	    1	      0	                 [Loop@0x40165e in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5726	1727	7662	9	0	0	0	0	0	0	0
+       476	         3	      5867	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       477	         3	      6984	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       478	         3	      7481	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       479	         3	      6517	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       480	         3	      6256	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       481	         3	      6194	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       482	       372	      7517	    1	      0	                 [Loop@0x401769 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	5993	1291	7569	8	0	0	0	0	0	0	0
+       483	         3	      7545	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       484	         3	      6819	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       485	         3	      6299	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       486	         3	      6270	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       487	         3	      5997	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       488	         3	      6858	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       489	         3	      7025	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       490	         3	      5823	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       491	         3	      6180	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       492	         3	      6117	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       493	         3	      6160	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       494	         3	      6967	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       495	         3	      7162	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       496	         3	      6869	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       497	         3	      7132	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       498	         3	      6381	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       499	         3	      7021	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       500	         3	      6277	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       501	         3	      6348	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       502	         3	      6291	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       503	         3	      7147	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       504	         3	      5889	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       505	         3	      6207	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       506	         3	      6437	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       507	         3	      7007	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       508	         3	      6133	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       509	         3	      6184	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       510	         3	      6343	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       511	         3	      6907	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       512	         3	      7111	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       513	         3	      6079	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       514	         3	      6687	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       515	         3	      6916	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       516	         3	      5793	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       517	         3	      7030	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       518	         3	      5847	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       519	         3	      6415	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       520	         3	      6848	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       521	         3	      6173	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       522	         3	      6995	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       523	         3	      7489	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       524	         3	      6146	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       525	         3	      6807	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       526	         3	      6263	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       527	         3	      6284	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       528	         3	      6484	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       529	         3	      6566	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       530	         3	      5776	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       531	         3	      6758	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       532	         3	      6353	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       533	         3	      7564	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       534	         3	      6796	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       535	         3	      7153	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       536	         3	      6497	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       537	         3	      6242	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       538	         3	      7509	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       539	         3	      6329	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       540	       367	      7970	    1	      0	                 [Loop@0x400f74 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3956	5061	8463	5	0	0	0	0	0	0	0
+       541	       540	      8040	    1	      0	                 [Loop@0x401f22 in main]	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	7970	443	8413	17	0	0	0	0	0	0	0
+       542	         3	      8340	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       543	         3	      8121	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       544	         3	      8505	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       545	         3	      8536	    0	      0	                                    main	/user/home/vo21765/advanced-hpc-lbm/d2q9-bgk	3872	5328	0	3	0	0	0	0	0	0	0
+       546	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	1	0	44	0	0	0	0	0	0	0
